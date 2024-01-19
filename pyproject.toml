@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "exceltabledifference"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Gréus <alexgreus51@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+safe-ds = "^0.17.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
